@@ -8,7 +8,7 @@ __See this project live at__ https://repl.it/@jessdam/twitter-streamer
 #### Editing the project
 _Note: to edit this project in the online environment you'll need a Repl, Google, Facebook or GitHub account_
 
-After clicking on the link above, click on the `Fork` button at the top of the page, which will make a copy of the project for you to edit, as shown below
+After clicking on the link above, click on the `Fork` button at the top of the page, which will make a copy of the project for you to edit, as shown below:
 
 ![Fork Button](./media/repl_fork.png)
 
