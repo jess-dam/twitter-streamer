@@ -18,6 +18,8 @@ To be able to get this project connected, you'll need to create a Twitter accoun
 
 After connecting to the developer app, create an app from the `Overview` page to be able to generate the keys and tokens you'll be using to login via your Python code.
 
+![Twitter Dev Dashboard](./media/twit_dev_board.png)
+
 See more here: https://developer.twitter.com/en/apply-for-access
 ##
 

@@ -3,7 +3,7 @@ import tweepy
 
 # This is
 config_object = ConfigParser()
-config_object.read('../../twitter.ini')
+config_object.read('./twitter.conf')
 keys = config_object["KEYS"]
 
 class MyStreamListener(tweepy.StreamListener):
@@ -12,8 +12,7 @@ class MyStreamListener(tweepy.StreamListener):
         self.me = api.me()
 
     def on_status(self, tweet):
-        if hasattr(tweet, "retweeted_status") == False:
-            print(f"{tweet.user.name}:{tweet.text}")
+        print(f"{tweet.user.name}:{tweet.text}")
 
     def on_error(self, status):
         print("Error detected")
