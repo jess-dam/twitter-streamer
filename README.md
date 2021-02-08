@@ -1,6 +1,6 @@
 ## Twitter Streaming Project :duck: :robot:
 
-This project is a web crawler that allows you to set up a bot that will continually listen to Twitter for a particular trend or phrase that is input by the user. It uses the Tweepy library to connect with Twitter from Python.
+This project is a web crawler that allows you to set up a bot that will continually listen to Twitter for a particular trend or phrase. It uses the Tweepy library to connect with Twitter from Python.
 
 __See this project live in Repl at__ https://repl.it/@jessdam/twitter-streamer
 
@@ -18,9 +18,7 @@ To be able to get this project connected, you'll need to create a Twitter accoun
 
 After connecting to the developer app, create an app from the `Overview` page to be able to generate the keys and tokens you'll be using to login via your Python code.
 
-Enter your keys and tokens into the `twitter.conf` file to start using the project
-
-__Note: Keep your keys safe and do not share them with other people__
+__Note: Please keep your keys safe and do not share them with other people__
 
 ![Twitter Dev Dashboard](./media/twit_dev_board.png)
 
