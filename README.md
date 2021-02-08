@@ -20,7 +20,7 @@ After connecting to the developer app, create an app from the `Overview` page to
 
 Enter your keys and tokens into the `twitter.conf` file to start using the project
 
-__keep your keys safe and do not share with other people__
+__Note: Keep your keys safe and do not share them with other people__
 
 ![Twitter Dev Dashboard](./media/twit_dev_board.png)
 
