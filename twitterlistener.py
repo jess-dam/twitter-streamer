@@ -7,7 +7,7 @@ class MyStreamListener(tweepy.StreamListener):
         self.api = api
 
     def on_status(self, tweet):
-        print(tweet.text)
+        print(f"{tweet.user.name}: {tweet.text}")
 
     def on_error(self, error):
         print("An error has occurred: ", error)
