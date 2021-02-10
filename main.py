@@ -7,15 +7,15 @@ import twitterlistener
 auth = tweepy.OAuthHandler("yourapikey", "yourapisecret")
 auth.set_access_token("youraccesstoken", "youraccesssecret")
 
-# 2. Create our API connection to talk to Twitter
+# 2. Create our API connection to ensure we can ask for information from Twitter after we've logged in
 connection = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 # 3. Create our bot that will be listening to the Twitter stream
 tweets_listener = twitterlistener.MyStreamListener(connection)
 
-# 4. Create the stream itself, that uses our Twitter login to start collecting tweets that are being posted live
+# 4. Create the stream itself, that uses our Twitter login to start finding tweets that are being posted live, and our tweets_listener to then collect and format the tweets we want
 stream = tweepy.Stream(auth, tweets_listener)
-stream.filter(track=["a topic to search for"])
+stream.filter(track=["a topic/trend to search for"])
 
 
 
